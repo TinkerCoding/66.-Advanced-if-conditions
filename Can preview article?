@@ -9,3 +9,14 @@ function canPreviewArticle(type, isAuthor) {
         return false
     }
  }
+
+/// Can also be written without using if/else: ///
+
+/**
+ * @param {string} type
+ * @param {boolean} isAuthor
+ */
+function canPreviewArticle(type, isAuthor) {
+    return type === "admin" || isAuthor === true
+}
+
