@@ -1,0 +1,11 @@
+/**
+ * @param {string} type
+ * @param {boolean} isAuthor
+ */
+function canPreviewArticle(type, isAuthor) {
+    if (type === "admin" || isAuthor === true) {
+        return true
+    } else {
+        return false
+    }
+ }
