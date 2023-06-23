@@ -1,0 +1,11 @@
+/**
+ * @param {boolean} hasPaid
+ * @param {number} completedChallenges
+ */
+function getUserPlan(has_paid, completed_challenges) {
+    if (has_paid === true && completed_challenges >= 10) {
+         return "Pro"
+     } else {
+          return "Trial"
+     }
+}
