@@ -9,3 +9,4 @@ function getUserPlan(has_paid, completed_challenges) {
           return "Trial"
      }
 }
+
